@@ -7,5 +7,5 @@ SELECT INSTR(first_name, "A") FROM worker WHERE first_name = "Amitabh";
 
 3)
 
-select FIRST_NAME,MAX(Salary),department from worker
+select FIRST_NAME,MAX(Salary),distinct(department) from worker
 
