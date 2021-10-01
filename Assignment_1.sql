@@ -2,4 +2,4 @@
 
 2)select distinct Department from worker;
 
-3)SELECT TOP 5 * FROM Table  worker ORDER BY worker_id DESC;
+3)SELECT TOP 5 * FROM worker ORDER BY worker_id DESC;
