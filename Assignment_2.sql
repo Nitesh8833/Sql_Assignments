@@ -3,7 +3,7 @@ SELECT SUBSTRING( FIRST_NAME, 1, 3 ) FROM WORKER;
 
 2)
 
-SELECT INSTR(first_name, "A") FROM worker WHERE first_name = "Amitabh";
+SELECT CHARINDEX('a',FIRST_NAME) from worker where FIRST_NAME = 'Amitabh';
 
 3)
 
